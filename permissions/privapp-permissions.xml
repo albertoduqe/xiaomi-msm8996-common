@@ -27,34 +27,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
 -->
 
 <permissions>
-    <privapp-permissions package="com.google.android.as">
-        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    <privapp-permissions package="com.android.camera2">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+        <permission name="android.permission.PREVENT_POWER_KEY"/>
     </privapp-permissions>
-
     <privapp-permissions package="com.android.dialer">
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.google.android.apps.wallpaper">
-        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.android.systemui">
-        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
-        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
-        <permission name="android.permission.SHUTDOWN"/>
-        <permission name="android.permission.REBOOT"/>
-        <permission name="android.permission.RECOVERY"/>
-    </privapp-permissions>
-	
-	<privapp-permissions package="ch.deletescape.lawnchair.ci">
-        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-        <permission name="android.permission.MANAGE_USERS"/>
-        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.android.settings">
-        <permission name="android.permission.ACCESS_FONT_MANAGER"/>
     </privapp-permissions>
 </permissions>
