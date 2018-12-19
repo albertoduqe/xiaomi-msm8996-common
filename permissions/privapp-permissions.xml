@@ -46,4 +46,15 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.REBOOT"/>
         <permission name="android.permission.RECOVERY"/>
     </privapp-permissions>
+	
+	<privapp-permissions package="ch.deletescape.lawnchair.ci">
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.settings">
+        <permission name="android.permission.ACCESS_FONT_MANAGER"/>
+    </privapp-permissions>
 </permissions>
