@@ -3,4 +3,6 @@ allow hal_sensors_default audioserver_service:service_manager find;
 
 allow hal_sensors_default sound_device:chr_file rw_file_perms;
 
+allow hal_sensors_default audio_device:chr_file { ioctl open read write };
+
 binder_use(hal_sensors_default)
