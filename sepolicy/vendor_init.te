@@ -1,0 +1,2 @@
+allow vendor_init camera_data_file:dir setattr;
+allow vendor_init nfc_data_file:dir setattr;
